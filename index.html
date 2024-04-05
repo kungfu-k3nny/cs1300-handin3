@@ -18,47 +18,95 @@
     </section>
     <section>
         <h2>Part 1: Competitive Analysis</h2>
-        <p>I will be conducting a competitve analysis for the websites of Amazon, Walmart, and Target:</p>
+        <p>I will be conducting a competitve analysis for the websites of Netflix,
+          Instagram, and Gmail:</p>
         <table border="1">
             <tr>
-              <th>Feature</th>
+              <th>Factor</th>
               <th><P><a href="https://www.netflix.com/browse">Netflix</a></P></th>
               <th><P><a href="https://www.instagram.com/">Instagram</a></P></th>
               <th><P><a href="https://mail.google.com/">Gmail</a></P></th>
             </tr>
             <tr>
-              <td>Delivery Method</td>
-              <td>Ships by default</td>
-              <td>Shows 3 methods at the top of the cart: Shipping, pickup, and delivery</td>
-              <td>Shipping or delivery can be selected per item</td>
+              <td>Default sorting by relevance</td>
+              <td>&#10003;</td>
+              <td>&#10003;</td>
+              <td>&#10007;</td>
             </tr>
             <tr>
-              <td>Sale information</td>
-              <td>Not available</td>
-              <td>Under the price of each item on sale, there is the original price as well
-                as the text "you save" followed by the dollar amount saved</td>
-                <td>Under the price of each item on sale, there is the original price as well
-                  as the text "Sale"</td>
+              <td>Default sorting by recency</td>
+              <td>&#10007;</td>
+              <td>&#10003;</td>
+              <td>&#10003;</td>
+            </tr>
+            <tr>
+              <td>Filtering by menu buttons</td>
+              <td>&#10003;</td>
+              <td>&#10007;</td>
+              <td>&#10003;</td>
+            </tr>
+            <tr>
+              <td>Content can be sorted by producer</td>
+              <td>&#10007;</td>
+              <td>&#10003;</td>
+              <td>&#10003;</td>
+            </tr>
+            <tr>
+              <td>Content searchable by title</td>
+              <td>&#10003;</td>
+              <td>&#10007;</td>
+              <td>&#10003;</td>
             </tr>
           </table>
+          <p>Netflix's strongest factor was that as soon as you open it, a film is already
+            playing based on your preferences. Since it is difficult for the user to know
+            if they will like a film or not, it is good that netflix sorts films by revelance
+            to the user. The drawback of this suggested film feature is poor navigation scent.
+            With the whole window being the suggested film, there is no obvious conceptual model
+            for how to navigate the website. Netflix's weakest factor is probably that you
+            cannot sort films by studio. Some people are fans of certain film studios, so
+            having the option to see films by a particular studio would be beneficial.
+          </p>
+          <p>Instagram's strongest factor was that the content is by default sorted from top to
+            bottom based on on
+            interest to the user, and also based on recency. This instills a strong
+            navigational scent,
+            since users know that the next content that comes up is likely to pique their
+            interest. Instagram's biggest weakness is it's inability to search content by title.
+            By nature of the content, which typically is too casual and numerous to warrant
+            unique titles, this does make sense, but it means that most information is either
+            searched through the producer, or fed by the company.
+          </p>
+          <p>
+            Gmail's strongest factor was it's strict sorting of content by recency. This makes
+            it easy for users to find emails just by knowing when they were sent. Like instagram,
+            The fact that emails continued downwards until it moved off screen made for a good
+            navigation scent, since it shows that there are more, older emails below. Gmail's
+            biggest weakness is that the user cannot sort emails by relevance. This is not terrible
+            since the use of gmail is more for record purposes rather than entertainment purposes.
+          </p>
+
+          <p>The features I want to implement are:</p>
+          <ol>
+            <li>Filtering content with a search bar</li>
+            <p>This can be done by adding a text box where items in the aggregator
+              are temporarily removed if the text in the text box do not match with
+              any text in the content
+            </p>
+            <li>Filtering content by producer</li>
+            <p>This can be done in conjunction with the search bar. Simply add
+              the producer as another text to match the text in the search bar with
+            </p>
+          </ol>
     </section>
     <section>
-        <h2>Part 2: Analysis</h2>
-        <h3>Creating Hypotheses</h3>
-        <p>There are three metrics that we are using to determine whether or not
-            my design choices reasonably impacted user interaction: Time spent on
-            page, misclick rate, and total distance of cursor movement. Below, I
-            dive into the details of why I used these metrics, the null
-            and alternative hypotheses for each of the metrics, and the reasoning
-            behind choosing these hypotheses.</p>
-        <ol>
-            <h4><li>Time spent on page</li></h4>
-            <p>More time spent on the page indicates a user confusion</p>
-            <ol type="i">
-                <li>The null hypothesis is that users spend the same amount of 
-                    time on webpage A as they spend on webpage B</li>
-            </ol>
-        </ol>
+      <h2>Part 2: Creating the React App</h2>
+      <p>I chose to create a fantasy sports website since I use them pretty often and a lot of
+        their functionality relies on their favoriting function. 
+        
+        The app is run using Vercel, and can be found here:
+      </p>
+      <P><a href="https://cs1300-development-9nxl.vercel.app/">Chug's Sports Book</a></P>
     </section>
     <section>
         <h2>Takeaways</h2>
